@@ -24,6 +24,10 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL57Dialect
 
+  artemis:
+    user: artemis
+    password: simetraehcapa
+
 # Enable logging for config troubleshooting
 logging:
   level:
@@ -38,3 +42,5 @@ logging:
           descriptor:
             sql:
               BasicBinder: TRACE
+
+
